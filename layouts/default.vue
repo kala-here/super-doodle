@@ -60,7 +60,7 @@ export default {
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Welcome',
+          title: 'Home',
           to: '/'
         },
         {
@@ -72,7 +72,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'kala-casa'
+      title: 'Kala Casa'
     }
   }
 }
