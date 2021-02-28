@@ -2,7 +2,7 @@
   <v-data-table
     :headers="headers"
     :items="advents"
-    :items-per-page="advents.length"
+    :items-per-page="5"
     class="elevation-1"
   >
     <template v-slot:item.starCount="{ item }">
