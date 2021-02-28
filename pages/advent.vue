@@ -2,17 +2,18 @@
   <v-data-table
     :headers="headers"
     :items="advents"
+    :items-per-page="advents.length"
     class="elevation-1"
   >
-  <template v-slot:item.starCount="{ item }">
-    <v-icon v-for="i in item.starCount">star</v-icon>
-  </template>
-  <template v-slot:item.url="{ item }">
-    <a href="url" target="_blank" class="pa-2 text--no-underline">
-      <v-icon height="30" width="30">open_in_new</v-icon>
-    </a>
-  </template>
-</v-data-table>
+    <template v-slot:item.starCount="{ item }">
+      <v-icon color="yellow" v-for="i in item.starCount">star</v-icon>
+    </template>
+    <template v-slot:item.url="{ item }">
+      <a :href="item.url" target="_blank" class="pa-2 text--no-underline">
+        <v-icon height="30" width="30">open_in_new</v-icon>
+      </a>
+    </template>
+  </v-data-table>
 </template>
 
 <script>

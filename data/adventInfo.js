@@ -8,7 +8,7 @@ export const advents = [
   {
     day: 2,
     starCount: 2,
-    url: '',
+    url: 'https://github.com/thecodechemist/super-doodle/blob/main/components/advent/Day2.vue',
     tools: 'JavaScript, ES6, Vue'
   },
 ];

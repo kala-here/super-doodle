@@ -6,7 +6,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: `kala's adventcode`,
+    titleTemplate: `Kala Casa`,
     title: 'adventcode',
     htmlAttrs: {
       lang: 'en'
