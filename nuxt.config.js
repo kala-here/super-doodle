@@ -6,7 +6,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - adventcode',
+    titleTemplate: `kala's adventcode`,
     title: 'adventcode',
     htmlAttrs: {
       lang: 'en'
@@ -21,6 +21,7 @@ export default {
       {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'}
     ]
   },
+  extractCSS: true,
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
