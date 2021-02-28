@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex">
+  <div class="mt-12 text--center">
     <p>I'm working through a particular advent calendar that involves code & stars.</p>
     <v-icon>auto_awesome</v-icon>
   </div>
@@ -14,3 +14,8 @@ export default {
   }
 }
 </script>
+<style lang="scss">
+  .text--center {
+    text-align: center;
+  }
+</style>
