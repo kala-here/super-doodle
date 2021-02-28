@@ -1,5 +1,10 @@
 {
-  "name": "adventcode",
+  "name": "kala-casa",
+  "description": "daily coding doodles",
+  "engines": {
+    "node": "15.x",
+    "yarn": "1.x"
+  },
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -14,14 +19,5 @@
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.11.3"
-  },
-  {
-    "name": "kala-casa",
-    "description": "stuff I collect",
-    "version": "1.0.0",
-    "engines": {
-      "node": "15.x",
-      "yarn": "1.x"
-    }
   }
 }
